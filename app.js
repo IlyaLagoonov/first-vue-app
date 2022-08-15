@@ -3,7 +3,9 @@
 const App = {
     data() {
         return {
-            counter: 0
+            placeholderCustom: 'Введите название заметки',
+            title: 'Список заметок',
+            inputValue: 'рыба'
         }
     }
 }

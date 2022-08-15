@@ -1,22 +1,14 @@
-.container {
-    margin: 0 auto;
-    max-width: 1024px;
+.body {
+    background-color: #003153;
 }
 
-.btn {
+
+
+.content-wrapper {
     border-radius: 25px;
-    width: 50px;
-    background-color: inherit;
-}
-
-.btn__green {
-    background-color: green;
-}
-
-.btn__red {
-    background-color: red;
-}
-
-.card {
-    padding: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFAFA;
 }
