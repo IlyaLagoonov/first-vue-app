@@ -18,11 +18,11 @@
             </h1>
 
             <div>
-                <button class="btn btn__green">
+                <button class="btn btn__green" v-on:click="counter++">
                     +
                 </button>
 
-                <button class="btn btn__red">
+                <button class="btn btn__red" v-on:click="counter = counter - 1">
                     -
                 </button>
             </div>
