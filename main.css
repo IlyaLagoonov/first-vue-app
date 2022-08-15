@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.btn {
+    border-radius: 25px;
+    width: 50px;
+    background-color: inherit;
+}
+
+.btn__green {
+    background-color: green;
+}
+
+.btn__red {
+    background-color: red;
+}
+
+.card {
+    padding: 100px;
+}
